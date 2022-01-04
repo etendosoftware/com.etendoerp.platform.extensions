@@ -1,0 +1,7 @@
+group = 'com.etendoerp'
+version = '1.0.0'
+description = 'Platform Extensions Pack'
+ 
+dependencies{
+    
+}
