@@ -1,0 +1,21 @@
+group = 'com.etendoerp'
+version = '1.0.0'
+description = 'Platform Extensions Pack'
+ 
+dependencies{
+    compile 'com.etendoerp:printdocumentws:latest.release@zip'
+    compile 'org.openbravo:utility.multiplebpselector:latest.release@zip'
+    compile 'org.openbravo:numbertoword:latest.release@zip'
+    compile 'org.openbravo:util.javax.xml.soap:latest.release@zip'
+}
+
+publishing{
+    repositories {
+        maven {
+            url "https://repo.futit.cloud/repository/maven-releases"
+        }
+        maven {
+            url "https://repo.futit.cloud/repository/maven-public-releases"
+        }
+    }
+}
