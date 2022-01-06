@@ -3,6 +3,9 @@ version = '1.0.0'
 description = 'Platform Extensions Pack'
  
 dependencies{
+    compile 'com.smf.classic.core:ob:[20.2.1,22.0.0)@zip'
+
+    // Other dependencies
     compile 'com.etendoerp:printdocumentws:latest.release@zip'
     compile 'org.openbravo:utility.multiplebpselector:latest.release@zip'
     compile 'org.openbravo:numbertoword:latest.release@zip'
