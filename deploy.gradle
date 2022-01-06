@@ -1,15 +1,15 @@
 group = 'com.etendoerp'
-version = '1.0.0'
+version = '1.0.100'
 description = 'Platform Extensions Pack'
  
 dependencies{
     compile 'com.smf.classic.core:ob:[20.2.1,22.0.0)@zip'
 
     // Other dependencies
-    compile 'com.etendoerp:printdocumentws:latest.release@zip'
-    compile 'org.openbravo:utility.multiplebpselector:latest.release@zip'
-    compile 'org.openbravo:numbertoword:latest.release@zip'
-    compile 'org.openbravo:util.javax.xml.soap:latest.release@zip'
+    compile 'com.etendoerp:printdocumentws:[1.0.0]@zip'
+    compile 'org.openbravo:utility.multiplebpselector:[1.0.300]@zip'
+    compile 'org.openbravo:numbertoword:[1.0.300]@zip'
+    compile 'org.openbravo:util.javax.xml.soap:[1.4.100]@zip'
 }
 
 publishing{
