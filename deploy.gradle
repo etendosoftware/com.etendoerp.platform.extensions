@@ -1,5 +1,5 @@
 group = 'com.etendoerp'
-version = '1.0.200'
+version = '1.0.300'
 description = 'Platform Extensions Pack'
  
 dependencies{
@@ -8,7 +8,7 @@ dependencies{
     // Other dependencies
     compile 'com.etendoerp:printdocumentws:[1.0.0]@zip'
     compile 'org.openbravo:utility.multiplebpselector:[1.0.300]@zip'
-    compile 'org.openbravo:numbertoword:[1.0.300]@zip'
+    compile 'org.openbravo:numbertoword_en:[1.0.300]@zip'
     compile 'org.openbravo:util.javax.xml.soap:[1.4.100]@zip'
     compile 'com.exos:erp.reportcachemanagement:[1.0.100]@zip'
 }
