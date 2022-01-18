@@ -6,7 +6,7 @@ dependencies{
     compile 'com.smf.classic.core:ob:[20.2.1,22.0.0)@zip'
 
     // Other dependencies
-    compile 'com.etendoerp:printdocumentws:[1.0.0]@zip'
+    compile 'com.etendoerp:printdocumentws:[1.0.100]@zip'
     compile 'org.openbravo:utility.multiplebpselector:[1.0.300]@zip'
     compile 'org.openbravo:numbertoword_en:[1.0.300]@zip'
     compile 'org.openbravo:util.javax.xml.soap:[1.4.100]@zip'
