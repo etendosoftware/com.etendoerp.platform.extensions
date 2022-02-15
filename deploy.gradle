@@ -18,8 +18,5 @@ publishing{
         maven {
             url "https://repo.futit.cloud/repository/maven-releases"
         }
-        maven {
-            url "https://repo.futit.cloud/repository/maven-public-releases"
-        }
     }
 }
