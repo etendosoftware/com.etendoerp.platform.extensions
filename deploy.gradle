@@ -1,6 +1,6 @@
 group = 'com.etendoerp'
 version = '1.0.400'
-description = 'Platform Extensions Pack'
+description = 'Platform Extensions'
  
 dependencies{
     compile 'com.smf.classic.core:ob:[20.2.1,22.0.0)@zip'
