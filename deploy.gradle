@@ -3,7 +3,7 @@ version = '1.0.400'
 description = 'Platform Extensions'
  
 dependencies{
-    compile 'com.smf.classic.core:ob:[20.2.1,22.0.0)@zip'
+    compile 'com.smf.classic.core:ob:[20.2.1,22.2.0)@zip'
 
     // Other dependencies
     compile 'com.etendoerp:printdocumentws:[1.0.100]@zip'
