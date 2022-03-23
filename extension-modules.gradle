@@ -1,5 +1,5 @@
 ext.defaultExtensionModules = [
-		'git@bitbucket.org:koodu_software/etendo_com.etendoerp.printdocumentws.git',
+		'git@bitbucket.org:koodu_software/com.etendoerp.printdocumentws.git',
 		'git@bitbucket.org:koodu_software/org.openbravo.utility.multiplebpselector.git',
 		'git@bitbucket.org:koodu_software/org.openbravo.numbertoword_en.git',
 		'git@bitbucket.org:koodu_software/org.openbravo.util.javax.xml.soap.git',
