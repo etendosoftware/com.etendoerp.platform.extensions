@@ -1,15 +1,9 @@
+apply from : 'extension-modules.gradle'
+
 group = 'com.etendoerp'
 version = '1.0.400'
-description = 'Platform Extensions Pack'
+description = 'Platform Extensions'
  
 dependencies{
     
 }
-
-def defaultExtensionModules = [
-		'git@bitbucket.org:koodu_software/etendo_com.etendoerp.printdocumentws.git',
-		'git@bitbucket.org:koodu_software/org.openbravo.utility.multiplebpselector.git',
-		'git@bitbucket.org:koodu_software/org.openbravo.numbertoword_en.git',
-		'git@bitbucket.org:koodu_software/org.openbravo.util.javax.xml.soap.git',
-		'git@bitbucket.org:koodu_software/com.exos.erp.reportcachemanagement.git'
-]
