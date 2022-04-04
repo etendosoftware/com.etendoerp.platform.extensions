@@ -1,9 +1,9 @@
 group = 'com.etendoerp'
 version = '1.0.400'
-description = 'Platform Extensions Pack'
+description = 'Platform Extensions'
  
 dependencies{
-    compile 'com.smf.classic.core:ob:[20.2.1,22.0.0)@zip'
+    compile 'com.smf.classic.core:ob:[20.2.1,22.2.0)@zip'
 
     // Other dependencies
     compile 'com.etendoerp:printdocumentws:[1.0.100]@zip'
@@ -17,9 +17,6 @@ publishing{
     repositories {
         maven {
             url "https://repo.futit.cloud/repository/maven-releases"
-        }
-        maven {
-            url "https://repo.futit.cloud/repository/maven-public-releases"
         }
     }
 }

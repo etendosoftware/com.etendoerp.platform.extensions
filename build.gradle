@@ -1,6 +1,8 @@
+apply from : 'extension-modules.gradle'
+
 group = 'com.etendoerp'
 version = '1.0.400'
-description = 'Platform Extensions Pack'
+description = 'Platform Extensions'
  
 dependencies{
     
