@@ -1,9 +1,66 @@
-apply from : 'extension-modules.gradle'
+/**
+*   This file was generated automatically by the 'createModuleBuild' task.
+*   Created at: 2022-04-05T18:49:20.958711Z.
+*
+*   WARNING: Do not put your credentials directly in this file.
+*
+*/
 
-group = 'com.etendoerp'
-version = '1.0.400'
-description = 'Platform Extensions'
- 
-dependencies{
-    
+group          = "com.etendoerp"
+version        = "1.0.400"
+description    = "Platform Extensions"
+ext.artifact   = "platform.extensions"
+ext.repository = "https://repo.futit.cloud/repository/maven-releases"
+apply from: 'extension-modules.gradle'
+configurations {
+    moduleDependencyContainer
+}
+
+publishing {
+    publications {
+        "com.etendoerp.platform.extensions"(MavenPublication) {
+            from components.java
+            groupId    = group
+            artifactId = artifact
+            version    = version
+        }
+    }
+    repositories {
+        maven {
+            url "https://repo.futit.cloud/repository/maven-releases"
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://repo.futit.cloud/repository/maven-releases"
+    }
+    maven {
+        url "https://repo.futit.cloud/repository/maven-releases"
+    }
+    maven {
+        url "https://repo.futit.cloud/repository/maven-public-releases"
+    }
+    maven {
+        url "https://repo.futit.cloud/repository/maven-public-jars"
+    }
+}
+
+/**
+* Declare Java dependencies using 'implementation'
+* Ex: implementation "com.sun.mail:javax.mail:1.6.2"
+*/
+dependencies {
+
+   implementation('com.etendoerp:printdocumentws:1.0.100') 
+   implementation('com.exos:erp.reportcachemanagement:1.0.100') 
+   implementation('com.smf:ws.printdocument:1.0.100') 
+   implementation('org.openbravo:numbertoword:1.0.300') 
+   implementation('org.openbravo:numbertoword_en:1.0.300') 
+   implementation('org.openbravo:util.javax.xml.soap:1.4.2') 
+   implementation('org.openbravo:utility.multiplebpselector:1.0.300') 
+   implementation('com.etendoerp.platform:etendo-core:[22.1.0, 22.2.0)') 
+
 }
