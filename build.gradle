@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "1.0.400"
+version        = "1.0.500"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
 ext.repository = "https://repo.futit.cloud/repository/maven-releases"
@@ -55,7 +55,7 @@ repositories {
 dependencies {
 
    implementation('com.etendoerp:printdocumentws:1.0.100') 
-   implementation('com.exos:erp.reportcachemanagement:1.0.100') 
+   implementation('com.exos:erp.reportcachemanagement:1.0.200') 
    implementation('com.smf:ws.printdocument:1.0.100') 
    implementation('org.openbravo:numbertoword:1.0.300') 
    implementation('org.openbravo:numbertoword_en:1.0.300') 
