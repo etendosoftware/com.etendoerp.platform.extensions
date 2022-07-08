@@ -1,13 +1,13 @@
 /**
 *   This file was generated automatically by the 'createModuleBuild' task.
-*   Created at: 2022-04-05T18:49:20.958711Z.
+*   Created at: 2022-07-08T20:47:08.529264Z.
 *
 *   WARNING: Do not put your credentials directly in this file.
 *
 */
 
 group          = "com.etendoerp"
-version        = "1.0.501"
+version        = "1.1.0"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
 ext.repository = "https://repo.futit.cloud/repository/maven-releases"
@@ -54,13 +54,13 @@ repositories {
 */
 dependencies {
 
-   implementation('com.etendoerp:printdocumentws:1.0.100') 
-   implementation('com.exos:erp.reportcachemanagement:1.0.201') 
-   implementation('com.smf:ws.printdocument:1.0.100') 
-   implementation('org.openbravo:numbertoword:1.0.300') 
-   implementation('org.openbravo:numbertoword_en:1.0.300') 
-   implementation('org.openbravo:util.javax.xml.soap:1.4.2') 
-   implementation('org.openbravo:utility.multiplebpselector:1.0.300') 
-   implementation('com.etendoerp.platform:etendo-core:[22.1.0, 22.2.0)') 
+   implementation('com.etendoerp:printdocumentws:1.1.0') 
+   implementation('com.exos:erp.reportcachemanagement:1.1.0') 
+   implementation('com.smf:ws.printdocument:1.1.0') 
+   implementation('org.openbravo:numbertoword:1.1.0') 
+   implementation('org.openbravo:numbertoword_en:1.1.0') 
+   implementation('org.openbravo:util.javax.xml.soap:1.5.0') 
+   implementation('org.openbravo:utility.multiplebpselector:1.1.0') 
+   implementation('com.etendoerp.platform:etendo-core:[22.1.0, 22.3.0)') 
 
 }
