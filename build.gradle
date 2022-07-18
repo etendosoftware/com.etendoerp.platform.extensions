@@ -38,9 +38,6 @@ repositories {
         url "https://repo.futit.cloud/repository/maven-releases"
     }
     maven {
-        url "https://repo.futit.cloud/repository/maven-releases"
-    }
-    maven {
         url "https://repo.futit.cloud/repository/maven-public-releases"
     }
     maven {
@@ -61,6 +58,7 @@ dependencies {
    implementation('org.openbravo:numbertoword_en:1.0.300') 
    implementation('org.openbravo:util.javax.xml.soap:1.4.2') 
    implementation('org.openbravo:utility.multiplebpselector:1.0.300') 
+   implementation('com.smf:asset.amortization.report:1.0.700')
    implementation('com.etendoerp.platform:etendo-core:[22.1.0, 22.2.0)') 
 
 }
