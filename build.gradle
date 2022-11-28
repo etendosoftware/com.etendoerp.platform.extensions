@@ -61,7 +61,6 @@ dependencies {
    implementation('org.openbravo:numbertoword_en:1.1.0') 
    implementation('org.openbravo:util.javax.xml.soap:1.5.0') 
    implementation('org.openbravo:utility.multiplebpselector:1.1.0') 
-   implementation('com.smf:asset.amortization.report:1.0.700') 
    implementation('com.etendoerp.platform:etendo-core:[22.1.0, 22.3.0)') 
 
 }
