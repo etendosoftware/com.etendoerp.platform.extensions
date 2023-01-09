@@ -53,7 +53,6 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-
    implementation('com.etendoerp:printdocumentws:1.1.1') 
    implementation('com.exos:erp.reportcachemanagement:1.1.1') 
    implementation('com.smf:ws.printdocument:1.1.1') 
@@ -62,6 +61,5 @@ dependencies {
    implementation('org.openbravo:util.javax.xml.soap:1.5.2') 
    implementation('org.openbravo:utility.multiplebpselector:1.1.2') 
    implementation('com.etendoerp:etendorx:1.0.1')
-   implementation('com.etendoerp.platform:etendo-core:[22.1.0,22.4.0)') 
-
+   implementation('com.etendoerp.platform:etendo-core:[22.1.0,22.4.0)')
 }
