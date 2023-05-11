@@ -5,5 +5,8 @@ ext.defaultExtensionModules = [
 		'git@bitbucket.org:koodu_software/org.openbravo.numbertoword.git',
 		'git@bitbucket.org:koodu_software/org.openbravo.util.javax.xml.soap.git',
 		'git@bitbucket.org:koodu_software/com.exos.erp.reportcachemanagement.git',
-		'git@bitbucket.org:koodu_software/com.etendoerp.etendorx.git'
+		'git@bitbucket.org:koodu_software/com.etendoerp.etendorx.git',
+		'git@bitbucket.org:koodu_software/com.etendoerp.reactor.git',
+		'git@bitbucket.org:koodu_software/com.etendoerp.webhookevents.git',
+		'git@bitbucket.org:koodu_software/com.etendoerp.asyncprocess.git'
 ]
