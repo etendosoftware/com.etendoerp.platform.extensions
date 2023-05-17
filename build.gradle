@@ -38,7 +38,7 @@ repositories {
         url "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
     }
     maven {
-        url "https://repo.futit.cloud/repository/maven-releases"
+        url "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
     }
     maven {
         url "https://repo.futit.cloud/repository/maven-public-releases"
