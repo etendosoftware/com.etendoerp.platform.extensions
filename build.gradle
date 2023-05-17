@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "1.3.0"
+version        = "1.4.0"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
@@ -53,15 +53,15 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-    implementation('com.etendoerp:printdocumentws:1.2.0')
-    implementation('com.exos:erp.reportcachemanagement:1.2.0')
-    implementation('com.smf:ws.printdocument:1.2.0')
-    implementation('org.openbravo:numbertoword:1.2.0')
-    implementation('org.openbravo:numbertoword_en:1.2.0')
-    implementation('org.openbravo:util.javax.xml.soap:1.6.0')
-    implementation('com.etendoerp:etendorx:1.1.0')
-    implementation('com.etendoerp:asyncprocess:1.0.0')
-    implementation('com.etendoerp:webhookevents:1.1.3')
+    implementation('com.etendoerp:printdocumentws:1.3.0')
+    implementation('com.exos:erp.reportcachemanagement:1.3.0')
+    implementation('com.smf:ws.printdocument:1.3.0')
+    implementation('org.openbravo:numbertoword:1.3.0')
+    implementation('org.openbravo:numbertoword_en:1.3.0')
+    implementation('org.openbravo:util.javax.xml.soap:1.7.0')
+    implementation('com.etendoerp:etendorx:1.2.0')
+    implementation('com.etendoerp:asyncprocess:1.1.0')
+    implementation('com.etendoerp:webhookevents:1.2.0')
 
     implementation('com.etendoerp.platform:etendo-core:[22.1.0,23.2.0)')
 }
