@@ -8,5 +8,7 @@ ext.defaultExtensionModules = [
 		'git@bitbucket.org:koodu_software/com.etendoerp.etendorx.git',
 		'git@bitbucket.org:koodu_software/com.etendoerp.reactor.git',
 		'git@bitbucket.org:koodu_software/com.etendoerp.webhookevents.git',
-		'git@bitbucket.org:koodu_software/com.etendoerp.asyncprocess.git'
+		'git@bitbucket.org:koodu_software/com.etendoerp.asyncprocess.git',
+		'git@bitbucket.org:koodu_software/com.etendoerp.advanced.security.git',
+		'git@bitbucket.org:koodu_software/com.etendoerp.advanced.security.template.git'
 ]
