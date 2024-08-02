@@ -64,6 +64,8 @@ dependencies {
     implementation('com.etendoerp:advanced.security.template:1.4.0')
     implementation('com.etendoerp:dynamic.app:1.4.0')
     implementation('com.smf:ean128:1.4.0')
+    implementation('com.etendoerp:tomcat:1.0.0')
+    implementation('com.etendoerp:docker:1.1.0')
 
     implementation('com.etendoerp.platform:etendo-core:[23.2.0,24.3.0)')
 }
