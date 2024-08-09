@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "1.18.0"
+version        = "1.19.0"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
@@ -64,9 +64,9 @@ dependencies {
     implementation('com.etendoerp:advanced.security.template:1.4.0')
     implementation('com.etendoerp:dynamic.app:1.4.0')
     implementation('com.smf:ean128:1.4.0')
-    implementation('com.etendoerp:tomcat:1.0.0')
-    implementation('com.etendoerp:docker:1.1.0')
-    implementation('com.etendoerp:upload.file:1.0.0')
+    implementation('com.etendoerp:tomcat:1.1.0')
+    implementation('com.etendoerp:docker:1.2.0')
+    implementation('com.etendoerp:upload.file:1.1.0')
 
     implementation('com.etendoerp.platform:etendo-core:[23.2.0,24.3.0)')
 }
