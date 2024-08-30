@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "2.0.0"
+version        = "2.0.1"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
@@ -54,13 +54,13 @@ repositories {
 */
 dependencies {
     implementation('com.etendoerp:printdocumentws:1.8.0')
-    implementation('com.exos:erp.reportcachemanagement:1.8.0')
+    implementation('com.exos:erp.reportcachemanagement:1.8.1')
     implementation('com.smf:ws.printdocument:1.8.0')
     implementation('org.openbravo:numbertoword:1.16.0')
     implementation('org.openbravo:numbertoword_en:1.8.0')
     implementation('com.etendoerp:etendorx:2.0.0')
     implementation('com.etendoerp:asyncprocess:1.6.0')
-    implementation('com.etendoerp:webhookevents:1.9.1')
+    implementation('com.etendoerp:webhookevents:1.9.2')
     implementation('com.etendoerp:advanced.security.template:1.4.0')
     implementation('com.etendoerp:dynamic.app:1.4.0')
     implementation('com.smf:ean128:1.4.0')
