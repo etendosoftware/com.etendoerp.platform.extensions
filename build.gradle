@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "2.3.0"
+version        = "2.4.0"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
@@ -53,19 +53,19 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-    implementation('com.etendoerp:printdocumentws:1.8.0')
-    implementation('com.exos:erp.reportcachemanagement:1.8.1')
-    implementation('com.smf:ws.printdocument:1.8.0')
-    implementation('org.openbravo:numbertoword:1.16.0')
-    implementation('org.openbravo:numbertoword_en:1.8.0')
-    implementation('com.etendoerp:etendorx:2.2.0')
-    implementation('com.etendoerp:asyncprocess:1.6.0')
-    implementation('com.etendoerp:webhookevents:1.10.0')
-    implementation('com.etendoerp:advanced.security.template:1.4.0')
-    implementation('com.etendoerp:dynamic.app:1.5.1')
-    implementation('com.smf:ean128:1.4.0')
-    implementation('com.etendoerp:tomcat:1.3.0')
-    implementation('com.etendoerp:docker:1.3.0')
+    implementation('com.etendoerp:printdocumentws:1.9.0')
+    implementation('com.exos:erp.reportcachemanagement:1.9.0')
+    implementation('com.smf:ws.printdocument:1.9.0')
+    implementation('org.openbravo:numbertoword:1.17.0')
+    implementation('org.openbravo:numbertoword_en:1.9.0')
+    implementation('com.etendoerp:etendorx:2.3.0')
+    implementation('com.etendoerp:asyncprocess:1.7.0')
+    implementation('com.etendoerp:webhookevents:1.11.0')
+    implementation('com.etendoerp:advanced.security.template:1.5.0')
+    implementation('com.etendoerp:dynamic.app:1.6.0')
+    implementation('com.smf:ean128:1.5.0')
+    implementation('com.etendoerp:tomcat:1.4.0')
+    implementation('com.etendoerp:docker:1.4.0')
 
-    implementation('com.etendoerp.platform:etendo-core:[23.2.0,24.3.0)')
+    implementation('com.etendoerp.platform:etendo-core:[23.2.0,24.4.0)')
 }
