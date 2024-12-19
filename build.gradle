@@ -37,15 +37,6 @@ repositories {
     maven {
         url "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
     }
-    maven {
-        url "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
-    }
-    maven {
-        url "https://repo.futit.cloud/repository/maven-public-releases"
-    }
-    maven {
-        url "https://repo.futit.cloud/repository/maven-public-jars"
-    }
 }
 
 /**
@@ -61,7 +52,7 @@ dependencies {
     implementation('com.etendoerp:etendorx:2.3.2')
     implementation('com.etendoerp:asyncprocess:1.7.1')
     implementation('com.etendoerp:webhookevents:1.11.1')
-    implementation('com.etendoerp:advanced.security.template:1.5.1')
+    implementation('com.etendoerp:advanced.security:1.5.1')
     implementation('com.etendoerp:dynamic.app:1.6.2')
     implementation('com.smf:ean128:1.5.1')
     implementation('com.etendoerp:tomcat:1.5.1')
