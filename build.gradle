@@ -57,6 +57,7 @@ dependencies {
     implementation('com.smf:ean128:1.6.0')
     implementation('com.etendoerp:tomcat:1.6.0')
     implementation('com.etendoerp:docker:1.6.0')
+    implementation('com.etendoerp:openapi:1.0.0')
 
     implementation('com.etendoerp.platform:etendo-core:[23.2.0,25.1.0)')
 }

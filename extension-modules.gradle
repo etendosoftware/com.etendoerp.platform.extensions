@@ -13,6 +13,7 @@ ext.defaultExtensionModules = [
 		'git@github.com:etendosoftware/com.etendoerp.dynamic.app.git',
 		'git@bitbucket.org:koodu_software/com.smf.ean128.git',
 		'git@github.com:etendosoftware/com.etendoerp.docker.git',
-		'git@github.com:etendosoftware/com.etendoerp.tomcat.git'
+		'git@github.com:etendosoftware/com.etendoerp.tomcat.git',
+		'git@github.com:etendosoftware/com.etendoerp.openapi.git'
 
 ]
