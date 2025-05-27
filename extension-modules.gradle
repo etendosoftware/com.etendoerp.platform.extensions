@@ -1,19 +1,18 @@
 ext.defaultExtensionModules = [
-		'git@github.com:etendosoftware/com.etendoerp.printdocumentws.git',
 		'git@bitbucket.org:koodu_software/com.smf.ws.printdocument.git',
-		'git@bitbucket.org:koodu_software/org.openbravo.numbertoword_en.git',
+		'git@github.com:etendosoftware/com.etendoerp.printdocumentws.git',
 		'git@bitbucket.org:koodu_software/org.openbravo.numbertoword.git',
+		'git@bitbucket.org:koodu_software/org.openbravo.numbertoword_en.git',
 		'git@bitbucket.org:koodu_software/com.exos.erp.reportcachemanagement.git',
-		'git@github.com:etendosoftware/com.etendoerp.etendorx.git',
 		'git@github.com:etendosoftware/com.etendoerp.reactor.git',
-		'git@github.com:etendosoftware/com.etendoerp.webhookevents.git',
 		'git@github.com:etendosoftware/com.etendoerp.asyncprocess.git',
-		'git@github.com:etendosoftware/com.etendoerp.advanced.security.git',
 		'git@github.com:etendosoftware/com.etendoerp.advanced.security.template.git',
+		'git@github.com:etendosoftware/com.etendoerp.advanced.security.git',
 		'git@github.com:etendosoftware/com.etendoerp.dynamic.app.git',
 		'git@bitbucket.org:koodu_software/com.smf.ean128.git',
 		'git@github.com:etendosoftware/com.etendoerp.docker.git',
 		'git@github.com:etendosoftware/com.etendoerp.tomcat.git',
-		'git@github.com:etendosoftware/com.etendoerp.openapi.git'
-
+		'git@github.com:etendosoftware/com.etendoerp.openapi.git',
+		'git@github.com:etendosoftware/com.etendoerp.etendorx.git',
+		'git@github.com:etendosoftware/com.etendoerp.webhookevents.git',
 ]
