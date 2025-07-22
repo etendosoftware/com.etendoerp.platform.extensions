@@ -15,5 +15,5 @@ ext.defaultExtensionModules = [
 		'git@github.com:etendosoftware/com.etendoerp.docker.git',
 		'git@github.com:etendosoftware/com.etendoerp.tomcat.git',
 		'git@github.com:etendosoftware/com.etendoerp.openapi.git',
-		'git@bitbucket.org:koodu_software/com.etendoerp.task.git'
+		'git@github.com:etendosoftware/com.etendoerp.task.git'
 ]
