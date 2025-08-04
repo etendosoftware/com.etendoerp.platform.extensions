@@ -16,4 +16,7 @@ ext.defaultExtensionModules = [
 		'git@github.com:etendosoftware/com.etendoerp.etendorx.git',
 		'git@github.com:etendosoftware/com.etendoerp.webhookevents.git',
 		'git@github.com:etendosoftware/com.etendoerp.task.git',
+		'git@github.com:etendosoftware/com.etendoerp.metadata.template.git',
+		'git@github.com:etendosoftware/com.etendoerp.metadata.git',
+		'git@github.com:etendosoftware/com.etendoerp.mainui.git'
 ]
