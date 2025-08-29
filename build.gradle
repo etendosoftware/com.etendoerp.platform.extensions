@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "3.7.0"
+version        = "3.7.1"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
@@ -49,7 +49,7 @@ dependencies {
     implementation('com.smf:ws.printdocument:2.1.0')
     implementation('org.openbravo:numbertoword:2.1.0')
     implementation('org.openbravo:numbertoword_en:2.1.0')
-    implementation('com.etendoerp:etendorx:3.7.0')
+    implementation('com.etendoerp:etendorx:3.7.1')
     implementation('com.etendoerp:asyncprocess:2.4.0')
     implementation('com.etendoerp:webhookevents:2.4.0')
     implementation('com.etendoerp:advanced.security:2.1.0')
@@ -58,8 +58,8 @@ dependencies {
     implementation('com.etendoerp:tomcat:2.5.0')
     implementation('com.etendoerp:docker:2.5.0')
     implementation('com.etendoerp:openapi:2.3.0')
-    implementation('com.etendoerp:task:3.7.0')
-    implementation('com.etendoerp:mainui:0.6.0')
+    implementation('com.etendoerp:task:3.7.1')
+    implementation('com.etendoerp:mainui:0.6.1')
 
     implementation('com.etendoerp.platform:etendo-core:[25.2.0,25.3.0)')
 }
