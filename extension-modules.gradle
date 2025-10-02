@@ -1,4 +1,5 @@
 ext.defaultExtensionModules = [
+        'git@github.com:etendosoftware/com.etendoerp.print.provider.git',
 		'git@bitbucket.org:koodu_software/com.smf.ws.printdocument.git',
 		'git@github.com:etendosoftware/com.etendoerp.printdocumentws.git',
 		'git@bitbucket.org:koodu_software/org.openbravo.numbertoword.git',
