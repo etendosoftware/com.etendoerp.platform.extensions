@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "3.9.0"
+version        = "3.10.0"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
@@ -44,23 +44,23 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-    implementation('com.etendoerp:printdocumentws:2.1.0')
-    implementation('com.exos:erp.reportcachemanagement:2.1.0')
-    implementation('com.smf:ws.printdocument:2.1.0')
-    implementation('org.openbravo:numbertoword:2.1.0')
-    implementation('org.openbravo:numbertoword_en:2.1.0')
-    implementation('com.etendoerp:etendorx:3.9.0')
-    implementation('com.etendoerp:asyncprocess:2.4.1')
-    implementation('com.etendoerp:webhookevents:2.4.0')
-    implementation('com.etendoerp:advanced.security:2.1.0')
-    implementation('com.etendoerp:dynamic.app:2.1.0')
-    implementation('com.smf:ean128:2.2.0')
-    implementation('com.etendoerp:tomcat:2.7.0')
-    implementation('com.etendoerp:docker:2.7.0')
-    implementation('com.etendoerp:openapi:2.3.0')
-    implementation('com.etendoerp:task:3.9.0')
-    implementation('com.etendoerp:mainui:0.8.0')
-    implementation('com.etendoerp:print.provider:1.0.0')
+    implementation('com.etendoerp:printdocumentws:2.2.0')
+    implementation('com.exos:erp.reportcachemanagement:2.2.0')
+    implementation('com.smf:ws.printdocument:2.2.0')
+    implementation('org.openbravo:numbertoword:2.2.0')
+    implementation('org.openbravo:numbertoword_en:2.2.0')
+    implementation('com.etendoerp:etendorx:3.10.0')
+    implementation('com.etendoerp:asyncprocess:2.5.0')
+    implementation('com.etendoerp:webhookevents:2.5.0')
+    implementation('com.etendoerp:advanced.security:2.2.0')
+    implementation('com.etendoerp:dynamic.app:2.2.0')
+    implementation('com.smf:ean128:2.3.0')
+    implementation('com.etendoerp:tomcat:2.8.0')
+    implementation('com.etendoerp:docker:2.8.0')
+    implementation('com.etendoerp:openapi:2.4.0')
+    implementation('com.etendoerp:task:3.10.0')
+    implementation('com.etendoerp:mainui:0.9.0')
+    implementation('com.etendoerp:print.provider:1.1.0')
 
-    implementation('com.etendoerp.platform:etendo-core:[25.2.0,25.3.0)')
+    implementation('com.etendoerp.platform:etendo-core:[25.2.0,25.4.0)')
 }
