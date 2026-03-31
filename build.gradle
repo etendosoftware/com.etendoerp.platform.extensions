@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "3.18.0"
+version        = "3.18.1"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
@@ -59,7 +59,7 @@ dependencies {
     implementation('com.etendoerp:docker:2.9.0')
     implementation('com.etendoerp:openapi:2.5.0')
     implementation('com.etendoerp:task:3.18.0')
-    implementation('com.etendoerp:mainui:0.17.0')
+    implementation('com.etendoerp:mainui:0.17.1')
     implementation('com.etendoerp:print.provider:1.3.0')
     implementation('com.etendoerp:telemetry:3.1.0')
 
