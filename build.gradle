@@ -10,7 +10,7 @@ group          = "com.etendoerp"
 version        = "4.2.1"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
-ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
+ext.repository = "https://repo.futit.cloud/repository/maven-snapshots"
 apply from: 'extension-modules.gradle'
 configurations {
     moduleDependencyContainer
@@ -27,7 +27,11 @@ publishing {
     }
     repositories {
         maven {
-            url "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
+            url "https://repo.futit.cloud/repository/maven-snapshots"
+            credentials {
+                username = project.findProperty("nexusUser") ?: System.getProperty("nexusUser") ?: System.getenv("NEXUS_USR") ?: ""
+                password = project.findProperty("nexusPassword") ?: System.getProperty("nexusPassword") ?: System.getenv("NEXUS_PSW") ?: ""
+            }
         }
     }
 }
@@ -35,7 +39,21 @@ publishing {
 repositories {
     mavenCentral()
     maven {
-        url "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
+        url "https://repo.futit.cloud/repository/maven-snapshots"
+        credentials {
+            username = project.findProperty("nexusUser") ?: System.getProperty("nexusUser") ?: System.getenv("NEXUS_USR") ?: ""
+            password = project.findProperty("nexusPassword") ?: System.getProperty("nexusPassword") ?: System.getenv("NEXUS_PSW") ?: ""
+        }
+    }
+    maven {
+        url "https://repo.futit.cloud/repository/maven-releases"
+        credentials {
+            username = project.findProperty("nexusUser") ?: System.getProperty("nexusUser") ?: System.getenv("NEXUS_USR") ?: ""
+            password = project.findProperty("nexusPassword") ?: System.getProperty("nexusPassword") ?: System.getenv("NEXUS_PSW") ?: ""
+        }
+    }
+    maven {
+        url "https://repo.futit.cloud/repository/maven-public-jars"
     }
 }
 
@@ -44,24 +62,24 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-    implementation('com.etendoerp:printdocumentws:3.1.0-SNAPSHOT')
+    implementation('com.etendoerp:printdocumentws:3.0.0-SNAPSHOT')
     implementation('com.exos:erp.reportcachemanagement:3.1.0-SNAPSHOT')
-    implementation('com.smf:ws.printdocument:3.1.0-SNAPSHOT')
+    implementation('com.smf:ws.printdocument:3.0.0-SNAPSHOT')
     implementation('org.openbravo:numbertoword:3.0.0-SNAPSHOT')
     implementation('org.openbravo:numbertoword_en:3.1.0-SNAPSHOT')
-    implementation('com.etendoerp:etendorx:4.1.0-SNAPSHOT')
-    implementation('com.etendoerp:asyncprocess:3.1.0-SNAPSHOT')
+    implementation('com.etendoerp:etendorx:4.1.1-SNAPSHOT')
+    implementation('com.etendoerp:asyncprocess:3.0.0-SNAPSHOT')
     implementation('com.etendoerp:webhookevents:3.0.0-SNAPSHOT')
     implementation('com.etendoerp:advanced.security:3.0.0-SNAPSHOT')
     implementation('com.etendoerp:dynamic.app:3.0.0-SNAPSHOT')
     implementation('com.smf:ean128:3.0.0-SNAPSHOT')
     implementation('com.etendoerp:tomcat:3.1.0-SNAPSHOT')
-    implementation('com.etendoerp:docker:3.1.0-SNAPSHOT')
+    implementation('com.etendoerp:docker:3.0.2-SNAPSHOT')
     implementation('com.etendoerp:openapi:3.0.0-SNAPSHOT')
-    implementation('com.etendoerp:task:4.1.0-SNAPSHOT')
+    implementation('com.etendoerp:task:4.0.2-SNAPSHOT')
     implementation('com.etendoerp:mainui:1.2.1-SNAPSHOT')
     implementation('com.etendoerp:print.provider:2.0.0-SNAPSHOT')
-    implementation('com.etendoerp:telemetry:4.1.0-SNAPSHOT')
+    implementation('com.etendoerp:telemetry:4.0.0-SNAPSHOT')
 
     implementation('com.etendoerp.platform:etendo-core:[27.1.0,27.2.0)')
 }
