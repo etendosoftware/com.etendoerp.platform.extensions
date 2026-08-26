@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "3.18.5"
+version        = "3.18.6"
 description    = "Platform Extensions"
 ext.artifact   = "platform.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
@@ -44,9 +44,9 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-    implementation('com.etendoerp:printdocumentws:2.4.0')
+    implementation('com.etendoerp:printdocumentws:2.4.1')
     implementation('com.exos:erp.reportcachemanagement:2.3.0')
-    implementation('com.smf:ws.printdocument:2.3.0')
+    implementation('com.smf:ws.printdocument:2.3.1')
     implementation('org.openbravo:numbertoword:2.4.0')
     implementation('org.openbravo:numbertoword_en:2.4.0')
     implementation('com.etendoerp:etendorx:3.18.3')
